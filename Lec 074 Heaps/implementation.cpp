@@ -98,9 +98,9 @@ void heapify(int arr[],int n,int i){
 void heapsort(int arr[],int n){
     int size =n;
     while(size>1){
-        swap(arr[size],arr[1]);
+        swap(arr[size],arr[1]); //bring largest elemnt to its right place
         size--;
 
-        heapify(arr,size,1);
+        heapify(arr,size,1); //heapify remaining
     }
 }
