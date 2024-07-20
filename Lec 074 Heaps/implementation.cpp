@@ -10,6 +10,14 @@ class heap{
         size = 0;
     }
 
+    /*
+    (if array starts from 1 index)
+    if node is at ith index then
+    left child = 2*i
+    right child = 2*i+1
+    parent node = i/2
+    */
+
     void insert(int val){
         size = size+1;
         int index = size;
