@@ -5,7 +5,7 @@
 #include<iostream>
 
 using namespace std;
-
+//only applicable in DAG
 void topsort(int node,vector<bool> &visited,stack<int> &s,unordered_map<int,list<int>> &adj){
     visited[node] = true;
 
