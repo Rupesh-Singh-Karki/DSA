@@ -53,7 +53,7 @@ vector<pair<pair<int, int>, int>> calculatePrimsMST(int n, int m, vector<pair<pa
         for (int j = 1; j <= n; j++) {
             if (!mst[j] && key[j] < mini) {
                 u = j;
-                mini = key[j];
+                mini = key[j]; //can be eliminated using min heap
             }
         }
 
