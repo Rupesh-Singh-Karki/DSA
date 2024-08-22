@@ -40,7 +40,7 @@ void InsertAtTail(node* &tail, int d){
     //new node create 
     node* temp = new node(d);
     tail -> next = temp;
-    tail = tail -> next;
+    tail = temp;
     
 }
 
